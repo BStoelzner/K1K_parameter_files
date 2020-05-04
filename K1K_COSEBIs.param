@@ -21,11 +21,11 @@ data.experiments=['K1K_COSEBIs']
 # Cosmological parameters list
 # main parameters to extract:
 
-data.parameters['omega_cdm']    = [0.1157,   0.051,  0.255,     0.0027,    1, 'cosmo']
+data.parameters['omega_cdm']    = [0.1157,   0.051,  0.255,	0.0027,    1, 'cosmo']
 data.parameters['sigma8']       = [0.826,    0.06,   2.2,       0.0029,    1, 'cosmo']
-data.parameters['omega_b']      = [0.0225,   0.019,  0.026,     0.028,     1, 'cosmo']
-data.parameters['n_s']          = [0.969,    0.84,   1.1,       0.0074,    1, 'cosmo']
-data.parameters['h']            = [0.6898,   0.64,   0.82,      0.0065,    1, 'cosmo']
+data.parameters['omega_b']      = [0.0225,   0.019,  0.026, 	0.028,     1, 'cosmo']
+data.parameters['n_s']          = [0.969,    0.84,   1.1, 	0.0074,    1, 'cosmo']
+data.parameters['h']            = [0.6898,   0.64,   0.82,   	0.0065,    1, 'cosmo']
 
 # Nuisance parameters:
 
@@ -40,11 +40,11 @@ data.parameters['c_min'] = [2.6,    2.,     3.13,    1.,     1, 'cosmo']
 #data.parameters['eta_0'] = [0.7, 0.59, 0.81, 1., 1, 'cosmo']
 
 ### Delta-z parameters ###
-data.parameters['D_z1'] = [ 0.,	      -5., 5., 0.01, 1, 'nuisance']
-data.parameters['D_z2'] = [ -0.178,    -5., 5., 0.01, 1, 'nuisance']
-data.parameters['D_z3'] = [ -1.129,   -5., 5., 0.01, 1, 'nuisance']
-data.parameters['D_z4'] = [ -1.419,   -5., 5., 0.01, 1, 'nuisance']
-data.parameters['D_z5'] = [ 1.1445,  -5., 5., 0.01, 1, 'nuisance']
+data.parameters['D_z1'] = [ 0.,       -5., 5., 0.01, 1, 'nuisance']
+data.parameters['D_z2'] = [ 0.178,    -5., 5., 0.01, 1, 'nuisance']
+data.parameters['D_z3'] = [ 1.129,    -5., 5., 0.01, 1, 'nuisance']
+data.parameters['D_z4'] = [ 1.419,    -5., 5., 0.01, 1, 'nuisance']
+data.parameters['D_z5'] = [ -1.1445,  -5., 5., 0.01, 1, 'nuisance']
 
 # Derived parameters:
 
